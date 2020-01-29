@@ -3,3 +3,4 @@ wikipedia==1.4.0
 wolframalpha==3.0.1
 PyAudio==0.2.11
 SpeechRecognition==3.8.1
+pipwin==0.4.6
