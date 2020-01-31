@@ -2,3 +2,4 @@ django==3.0.2
 wikipedia==1.4.0
 wolframalpha==3.0.1
 SpeechRecognition==3.8.1
+pyaudio==0.2.11
