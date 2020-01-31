@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 # asked = "I will show the answer here..."
 def asking(request):
     
-    import wikipedia
+    '''import wikipedia
     import wolframalpha
     import speech_recognition as sr
     app_id = "X4GXWV-9ETJLHU7XY"
@@ -31,8 +31,8 @@ def asking(request):
                     #return render(request, 'ask/index.html', context="Sorry, I failed to solve your query...")
     except sr.UnknownValueError:
         asked = "I could not understand your voice..."
-            #return render(request, 'ask/index.html', context="I could not understand your voice...")
-    return render(request, 'ask/index.html', {'asked':asked})
+            #return render(request, 'ask/index.html', context="I could not understand your voice...")'''
+    return render(request, 'ask/index.html', {'asked':"you are right"})
 
 def index(request):
     asked = "I will show the answer here..."
